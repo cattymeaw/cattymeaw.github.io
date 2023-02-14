@@ -7,3 +7,29 @@ if x == "meaw" {
 }
 </script>
 <p>meaw?</p>
+<script type="text/javascript">
+var password = "please";
+var x = prompt("Enter in the password "," ");
+if (x.toLowerCase() == password) {
+ alert("Come right in \n \n You've entered in the right password");
+ window.location = "good.htm";
+}
+else {
+ window.location = "bad.htm";
+}
+</script>
+<script type="text/javascript">
+function onClick() {
+var password = "please";
+var x = prompt("Enter in the password "," ");
+if (x.toLowerCase() == password) {
+ alert("Come right in \n \n You've entered in the right password");
+ window.location = "good.htm";
+}
+else {
+ window.location = "bad.htm";
+}
+}
+</script>
+
+<a href="javascript:onClick()">My link</a>
